@@ -4,11 +4,12 @@ packages:
   access_control:
     dependency: "direct main"
     description:
-      name: access_control
-      sha256: c457e1bb5e4c79a348b464171e06d098bc1268d20bf222b2b14388808a2f54a6
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.9.0"
+      path: "."
+      ref: "14c650a702d77d97dd7f72f91a14fae7126afc2a"
+      resolved-ref: "14c650a702d77d97dd7f72f91a14fae7126afc2a"
+      url: "https://github.com/karbunkul/flutter_access_control.git"
+    source: git
+    version: "1.0.0"
   async:
     dependency: transitive
     description:
@@ -201,4 +202,4 @@ packages:
     version: "2.1.4"
 sdks:
   dart: ">=3.0.5 <4.0.0"
-  flutter: ">=1.17.0"
+  flutter: ">=3.0.0"

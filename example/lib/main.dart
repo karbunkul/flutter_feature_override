@@ -97,7 +97,7 @@ class _DemoPageState extends State<DemoPage> {
           ),
           SliverToBoxAdapter(
             child: Center(
-              child: AccessControl.single(
+              child: AccessControl.permission(
                 permission: DeveloperPermission(),
                 denied: const Text('User'),
                 child: const Text('Developer'),

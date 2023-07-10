@@ -5,7 +5,7 @@ import 'package:flutter/widgets.dart';
 
 import 'feature_override_scope.dart';
 
-abstract class PermissionOverride<T> extends PermissionInterface {
+abstract class PermissionOverride<T> extends Permission {
   final T feature;
 
   PermissionOverride(this.feature);

@@ -30,7 +30,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  access_control: ^0.9.0
+  access_control:
+    git:
+      url: https://github.com/karbunkul/flutter_access_control.git
+      ref: 14c650a702d77d97dd7f72f91a14fae7126afc2a
   feature_override:
     path: ../
 

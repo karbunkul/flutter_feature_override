@@ -5,8 +5,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: "14c650a702d77d97dd7f72f91a14fae7126afc2a"
-      resolved-ref: "14c650a702d77d97dd7f72f91a14fae7126afc2a"
+      ref: "07f16dbed6e40d05867b938f0083a693f9cf06ad"
+      resolved-ref: "07f16dbed6e40d05867b938f0083a693f9cf06ad"
       url: "https://github.com/karbunkul/flutter_access_control.git"
     source: git
     version: "1.0.0"
